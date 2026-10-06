@@ -1,0 +1,30 @@
+# Secrets & credentials
+*.env
+.env*
+wp-config.php
+*credentials*
+*password*
+*secret*
+
+# Backups & databases
+backup_*
+*.zip
+*.gz
+*.sql
+*.sql.gz
+*.bak
+
+# WordPress data & logs
+wp-content/uploads/
+*.log
+
+# Client documents
+*.docx
+*.pdf
+*.xlsx
+private/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
